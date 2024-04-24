@@ -1,0 +1,24 @@
+:root{
+    --cor-cabecalho: #111111;
+    --cor-menu: #1a1a1a;
+    --black:#000000;
+    --cor-linha: #0d0d0d;
+    --cor-letras: #ffffff;
+    --laranja: #e65100;
+    --font-principal: "Ubuntu";
+    --font-artista: "Rubik Mono One";
+}
+
+.rodape{
+    background-color: var(--cor-cabecalho);
+    height: 70px;
+    text-align: center;
+}
+
+.titulo__rodape{
+    padding: 24px;
+    color: var(--cor-letras);
+    font-family: var(--font-artista);
+    font-size: 1.5em;
+    font-weight: 500;
+}

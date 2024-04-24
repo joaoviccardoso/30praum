@@ -1,0 +1,59 @@
+:root{
+    --cor-cabecalho: #111111;
+    --cor-menu: #1a1a1a;
+    --black:#000000;
+    --cor-letras: #ffffff;
+    --laranja: #e65100;
+    --cor-fundo:#262626;
+    --font-principal: "Ubuntu";
+    --font-artista: "Rubik Mono One";
+}
+
+.musica{
+    padding: 2em 4em;
+    margin-top: 3em;
+}
+
+.lancamentos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 4%;
+   margin-right: 96%;
+   width: 20%;
+   background-color: var(--cor-cabecalho);
+   border-radius: 8px;
+   padding:0.2em 0;
+}
+
+.tit{
+    font-family: var(--font-principal);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.album__musica{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.album__item{
+    padding: 1em 0;
+    flex-flow: 1;
+}
+
+.lista{
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+.top10{
+    display: inline-block;
+}
+
+.titulo__musica{
+    padding: 0;
+}
+

@@ -1,0 +1,132 @@
+@media(min-width:280px) and (max-width:749px){
+    /*cabe*/
+    .cabecalho__menu{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .artista__pagina{
+        margin-right: 2rem;
+    }
+
+    .lista__menu{
+        width: 25vw;
+    }
+
+    .cabecalho__icones{
+        display: none;
+    }
+ 
+    /*biografia*/
+
+    .biografia{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 1.5em;
+        padding-top: 5em;
+    }
+
+    .biografia .conteudo__caixa{
+        width: 100%;
+    }
+ 
+    /*carreira*/
+
+    .carreira{
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        padding: 1.5em;
+        padding-top: 1.5em;
+    }
+
+    .carreira .conteudo__caixa{
+        width: 100%;
+    }
+
+    /*musica*/
+
+    .musica{
+        padding: 0.8em;
+    }
+
+    .musica .conteudo__caixa{
+        padding-left: auto;
+        padding-right: auto;
+        width: 100%;
+    }
+
+    /*album maquina do tempo*/
+
+    .album .album__container{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        padding: 1em;
+        padding-top: 1em;
+    }
+
+    .album .contasiner__doi{
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        padding: 1em;
+        padding-top: 1em;
+    }
+
+    .album .lista__album{
+        margin: .5em; 
+    }
+    
+}
+
+@media(min-width:750px) and (max-width:1050px){
+    .biografia{
+        flex-direction: column;
+        padding: 5em 2em 2em 2em;
+    }
+
+    .carreira{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 2em 2em;
+    }
+
+    .musica{
+        padding: 2em;
+    }
+
+    .album__musica{
+        gap: 10px;
+        padding: 1em 1em;
+    }
+
+    .lancamentos{
+        width: 95%;
+    }
+
+    .tit{
+        text-align: center;
+    }
+    
+    .album__container{
+        flex-direction: column;
+        padding: 2em 2em;
+    }
+
+    .contasiner__doi{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+
+    .conteudo__um{
+        width: 100%;
+    }
+
+    .lista__album{
+        gap: 10px;
+        margin: 2em 2em;
+    }
+}

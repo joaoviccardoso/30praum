@@ -1,0 +1,152 @@
+@import url("./styles/album.css");
+@import url("./styles/musica.css");
+
+:root{
+    --cor-cabecalho: #111111;
+    --cor-menu: #1a1a1a;
+    --black:#000000;
+    --cor-letras: #ffffff;
+    --laranja: #e65100;
+    --cor-fundo:#262626;
+    --font-principal: "Ubuntu";
+    --font-artista: "Rubik Mono One";
+}
+
+body{
+    color: var(--cor-letras);
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+}
+
+/*configuração do header*/
+
+.artista__pagina{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: var(--font-artista);
+}
+
+.cabecalho{
+    width: 100%;
+    position: fixed;
+    background-color: var(--cor-cabecalho);
+}
+
+.cabecalho__lista-hamburguer{
+    height: 50px;
+    width: 50px;
+    background-image: url("../30praum/_fotos/list.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.cabecalho__img{
+    padding: 0 0.5em;
+}
+
+.lista__menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: var(--cor-menu);
+    width: 20vw;
+}
+
+.cabecalho__botao{
+    display: none;
+}
+
+.cabecalho__botao:checked~.lista__menu{
+    display: block;
+}
+
+.lista__titulo{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-principal);
+    padding: 0.5em;
+}
+
+.lista__link{
+    color: var(--cor-letras);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-principal);
+    text-decoration: none;
+}
+
+.lista__menu__item{
+    padding: 0.8em 1.2em;
+}
+
+/* configuração do main, carreira*/
+
+.biografia{
+    display: flex;
+    align-items: center;
+    padding: 8em 9em;
+}
+
+.carreira{
+    display: flex;
+    padding: 0 9em;
+    align-items: center;
+}
+
+/* configuração de estilo de imagem e texto*/
+
+.conteudo__artista{
+    border-radius: 50%;
+    padding: 0 1.5em;
+}
+
+.conteudo__caixa{
+    background-color: var(--cor-cabecalho);
+    border-radius: 16px;
+    padding: 1em 1em;
+}
+
+.conteudo__titulo{
+    font-family: var(--font-principal);
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+.conteudo__texto{
+    font-family: var(--font-principal);
+    font-weight: 300;
+    padding: 0.2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
