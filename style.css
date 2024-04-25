@@ -36,10 +36,9 @@ body{
 .cabecalho__lista-hamburguer{
     height: 50px;
     width: 50px;
-    background-image: url("../30praum/_fotos/list.svg");
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .cabecalho__menu{
@@ -49,8 +48,14 @@ body{
     position: sticky;
 }
 
-.cabecalho__img{
-    padding: 0 0.5em;
+.menu__foto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.new__menu{
+    padding: 0.5rem;
 }
 
 .lista__menu{

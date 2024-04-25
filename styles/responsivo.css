@@ -30,6 +30,10 @@
     .biografia .conteudo__caixa{
         width: 100%;
     }
+
+    .conteudo__caixa{
+        padding: 0.2rem;
+    }
  
     /*carreira*/
 
