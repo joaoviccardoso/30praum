@@ -38,7 +38,7 @@ body{
     width: 50px;
     background-repeat: no-repeat;
     background-position: center;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 .cabecalho__menu{
